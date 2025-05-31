@@ -1,4 +1,4 @@
-# Designing-Multiplexer
+![q3](https://github.com/user-attachments/assets/72338042-c813-46f7-a2a7-01438546b294)# Designing-Multiplexer
 🔧 Approximate 4x4 Multiplier Design in Verilog
 👨‍💻 Author:
 Badavath Thirupathi
@@ -100,14 +100,7 @@ Low-Power Embedded Systems
 
 📂 Files Included:
 approx_multiplier.v
-
-half_adder.v
-
-full_adder.v
-
-compressor.v
-
-approx_testbench.v
+tb.v
 
 README.md
 
