@@ -1,4 +1,5 @@
 // Half Adder Module
+'timescale 1ns/1ps
 module half_adder(
     input x,
     input y,
