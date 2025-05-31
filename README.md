@@ -63,6 +63,13 @@ Mean Relative Error	12.144%
 Maximum Relative Error	9.0%
 
 📸 See test result screenshot:
+![q1](https://github.com/user-attachments/assets/33e8aa24-3547-4297-bd5f-7ed86fbb8a93)
+![q2](https://github.com/user-attachments/assets/065ef2a3-65d8-4fe2-b9ee-c254c9c8f8cc)
+![q3](https://github.com/user-attachments/assets/67c7b0ce-4f94-499f-a228-1a68ba36f478)
+
+
+
+
 
 🔩 FPGA Resource Utilization (Post Synthesis):
 Resource	Usage
