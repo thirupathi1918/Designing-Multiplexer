@@ -1,15 +1,15 @@
 
-🔧 Approximate 4x4 Multiplier Design in Verilog
-👨‍💻 Author:
+Approximate 4x4 Multiplier Design in Verilog
+Author:
 Badavath Thirupathi
 
-📘 Project Title:
+Project Title:
 Designing Approximate Multipliers in Verilog to Build Hardware Accelerators
 
-📅 Duration:
+Duration:
 10–12 Weeks
 
-📌 Description:
+Description:
 This project focuses on the design and implementation of approximate multipliers using Verilog HDL to optimize hardware accelerators, particularly targeting machine learning applications.
 
 Approximate computing trades off a small amount of accuracy for significant savings in power, area, and latency, making it ideal for error-resilient applications like neural networks.
@@ -24,7 +24,7 @@ Testing functionality and evaluating relative errors.
 
 Synthesizing the design for resource utilization and power metrics.
 
-🧩 Module Structure:
+Module Structure:
 half_adder.v
 Performs a simplified sum and carry logic using:
 
@@ -47,22 +47,22 @@ Approximates summation of four bits using XOR/AND/OR operations.
 approx_multiplier.v
 Implements the approximate 4x4 multiplier using the above modules and partial product logic.
 
-🔬 Testbench (approx_testbench.v)
+Testbench (approx_testbench.v)
 Iterates through all 256 input combinations.
 
 Compares the approximate result with the exact result.
 
 Calculates the relative error and mean relative error.
 
-✅ Simulation Results:
-📊 Error Analysis:
+Simulation Results:
+Error Analysis:
 Parameter	Value
 Total Combinations	256
 Total Error	3109.0
 Mean Relative Error	12.144%
 Maximum Relative Error	9.0%
 
-📸 See test result screenshot:
+See test result screenshot:
 ![q1](https://github.com/user-attachments/assets/33e8aa24-3547-4297-bd5f-7ed86fbb8a93)
 ![q2](https://github.com/user-attachments/assets/065ef2a3-65d8-4fe2-b9ee-c254c9c8f8cc)
 ![q3](https://github.com/user-attachments/assets/67c7b0ce-4f94-499f-a228-1a68ba36f478)
@@ -71,14 +71,14 @@ Maximum Relative Error	9.0%
 
 
 
-🔩 FPGA Resource Utilization (Post Synthesis):
+FPGA Resource Utilization (Post Synthesis):
 Resource	Usage
 Slice LUTs	6
 Bonded IOBs	16
 
-📸 See utilization screenshot:
+See utilization screenshot:
 
-⚡ Power Analysis:
+Power Analysis:
 Metric	Value
 Total On-Chip Power	3.082 W
 Dynamic Power	2.995 W
@@ -87,9 +87,9 @@ I/O Power	2.810 W
 Logic Power	0.028 W
 Confidence Level	Low (estimated)
 
-📸 See power report screenshot:
+See power report screenshot:
 
-🚀 Applications:
+Applications:
 Machine Learning Accelerators
 
 Image Processing Pipelines
@@ -98,11 +98,11 @@ IoT Edge Devices
 
 Low-Power Embedded Systems
 
-📂 Files Included:
+Files Included:
 approx_multiplier.v
 tb.v
 
 README.md
 
-📜 License:
+License:
 This project is for academic and research use.
